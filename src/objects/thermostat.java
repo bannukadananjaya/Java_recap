@@ -20,5 +20,8 @@ class thermostat {
         therm1= new thermostat();
         therm2= new thermostat();
 
+        //Accessing objects
+        therm1.furnance_on();
+        therm2.furnance_off();
     }
 }
